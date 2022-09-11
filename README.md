@@ -6,15 +6,15 @@
  - Popup Message
 
 launchscreen:
-<img src="./files/launchscreen.png" width="400" height="800">
+<img src="./files/launchscreen.png" width="400" height="700">
 
 
 application:
-![app](./files/app.png)
+<img src="./files/app.png" width="400" height="700">
 
 shortclick:
-![shortclick](./files/shortclick.png)
+<img src="./files/shortclick.png" width="400" height="700">
 
 longclick:
-![longclick](./files/longclick.png)
+<img src="./files/longclick.png" width="400" height="700">
 
