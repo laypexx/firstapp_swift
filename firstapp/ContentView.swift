@@ -7,12 +7,22 @@
 
 import SwiftUI
 
+class Viewcontroller: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .lightGray
+    }
+}
+
 struct ContentView: View {
     var body: some View {
         VStack {
             Button(action: {
                 print("MyNewPrimitiveButton triggered. Is it printed ?")
-            }){ Text("longpress Button").padding() }
+            }){ Text("longpress Button")
+                    .padding()
+                 }
                 .buttonStyle(MyNewPrimitiveButtonStyle(color: .blue))
 
         }
