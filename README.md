@@ -6,9 +6,11 @@
  - Popup Message
 
 launchscreen:
+<img width="40" height="80">
 ![launchscreen](./files/launchscreen.png)
+</img>
 
-app:
+application:
 ![app](./files/app.png)
 
 shortclick:
