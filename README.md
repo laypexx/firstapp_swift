@@ -6,15 +6,19 @@
  - Popup Message
 
 launchscreen:
-<img src="./files/launchscreen.png" width="400" height="700">
+<br>
+<img src="./files/launchscreen.png" width="300" height="600">
 
 
 application:
-<img src="./files/app.png" width="400" height="700">
+<br>
+<img src="./files/app.png" width="300" height="600">
 
 shortclick:
-<img src="./files/shortclick.png" width="400" height="700">
+<br>
+<img src="./files/shortclick.png" width="300" height="600">
 
 longclick:
-<img src="./files/longclick.png" width="400" height="700">
+<br>
+<img src="./files/longclick.png" width="300" height="600">
 
