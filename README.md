@@ -1,2 +1,7 @@
-# firstapp_swift
- longpress button
+# My first App with Swift in Xcode
+ 
+ Progress:
+ - Longpress Button
+ - Launchscreen
+ - Popup Message
+ 
