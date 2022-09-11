@@ -6,9 +6,8 @@
  - Popup Message
 
 launchscreen:
-<img width="40" height="80">
-![launchscreen](./files/launchscreen.png)
-</img>
+<img src="./files/launchscreen.png" width="400" height="800">
+
 
 application:
 ![app](./files/app.png)
