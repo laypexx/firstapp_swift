@@ -7,20 +7,12 @@
 
 import SwiftUI
 
-class Viewcontroller: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .lightGray
-    }
-}
-
 struct ContentView: View {
     var body: some View {
         VStack {
             Button(action: {
-                print("MyNewPrimitiveButton triggered. Is it printed ?")
-            }){ Text("longpress Button")
+                print("ClickMe Button with longpress function is working!")
+            }){ Text("Click Me!")
                     .padding()
                  }
                 .buttonStyle(MyNewPrimitiveButtonStyle(color: .blue))
@@ -57,11 +49,9 @@ struct MyNewPrimitiveButtonStyle: PrimitiveButtonStyle {
                     self.pressed = pressing
                 }
                 if pressing {
-                    print("My long pressed starts")
-                    print("     I can initiate any action on start")
+                    print("The start of my longpress")
                 } else {
-                    print("My long pressed ends")
-                    print("     I can initiate any action on end")
+                    print("The end of my longpress")
                 }
             }, perform: { })
         }
@@ -71,5 +61,6 @@ struct MyNewPrimitiveButtonStyle: PrimitiveButtonStyle {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }
