@@ -3,14 +3,14 @@
  Progress:
  - Longpress Button
  - Launchscreen
- - Popup Message
+ - Darkmode
 
-launchscreen:
+launchscreen: (updated)
 <br>
 <img src="./files/launchscreen.png" width="300" height="600">
 
 
-application:
+application: (now darkmode)
 <br>
 <img src="./files/app.png" width="300" height="600">
 
