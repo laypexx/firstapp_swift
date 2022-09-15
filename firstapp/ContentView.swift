@@ -8,15 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingAlert = false
     var body: some View {
         VStack {
             Button(action: {
-                print("ClickMe Button with longpress function is working!")
-            }){ Text("Click Me!")
+                showingAlert = true
+            })
+            { Text("Click Me!")
                     .padding()
                  }
                 .buttonStyle(MyNewPrimitiveButtonStyle(color: .blue))
+                
+                .alert(isPresented: $showingAlert) {
+                    Alert(title: Text("Hallo"), message: Text("Test"))
+                }
+        }
+    }
+}
 
+struct ContentView2: View {
+    @State private var showingAlert = false
+
+    var body: some View {
+        Button("Show Alert") {
+            showingAlert = true
+        }
+        .alert("Important message", isPresented: $showingAlert) {
+            Button("OK", role: .cancel) { }
         }
     }
 }
@@ -50,6 +68,7 @@ struct MyNewPrimitiveButtonStyle: PrimitiveButtonStyle {
                 }
                 if pressing {
                     print("The start of my longpress")
+                    
                 } else {
                     print("The end of my longpress")
                 }
