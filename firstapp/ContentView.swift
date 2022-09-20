@@ -21,7 +21,7 @@ struct ContentView: View {
                 
                 .alert(isPresented: $showingAlert) {
                     Alert(title: Text("Hallo"), message: Text("Test"))
-                }
+                } //alert doenst work :(
         }
     }
 }
